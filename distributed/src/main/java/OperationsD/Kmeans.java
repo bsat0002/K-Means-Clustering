@@ -89,13 +89,8 @@ public class Kmeans {
 
         centres = BroadcastCentres(centres);
         boolean cluster_changed;
-        /* Using max iter and tolerance to avoid infinite loop*/
-        int iteration = 0;
-        int max_iterations = 100;
-        double tolerance = 0.000001;
 
         do {
-            iteration++;
 
             // Each rank stores its own partial clustering result.
             WorkerResult local_result = new WorkerResult(k);
@@ -164,10 +159,7 @@ public class Kmeans {
                     double new_latitude = total_latitude[i] / total_count[i];
                     double new_longitude = total_longitude[i] / total_count[i];
 
-                    double latitude_difference = Math.abs(old_latitude - new_latitude);
-                    double longitude_difference = Math.abs(old_longitude - new_longitude);
-
-                    if (latitude_difference > tolerance || longitude_difference > tolerance) {
+                    if (old_latitude != new_latitude || old_longitude != new_longitude) {
                         cluster_changed = true;
                     }
 
@@ -186,7 +178,7 @@ public class Kmeans {
 
             centres = BroadcastCentres(centres);
 
-        } while (cluster_changed && iteration < max_iterations);
+        } while (cluster_changed);
     }
 
     // Sends worker partial results to master and returns all results on master.

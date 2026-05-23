@@ -33,15 +33,9 @@ public class Kmeans {
         boolean cluster_changed = true;
         int number_of_threads = Runtime.getRuntime().availableProcessors();
 
-        int iteration = 0; /* I also used chatgpt similar to WorkerTask class to use max iterations and tolerance
-        because I could not get the records to be assigned to clusters and the map was never generating */
-        int max_iterations = 100;
-        double tolerance = 0.000001;
-
-        while (cluster_changed && iteration < max_iterations) {
+        while (cluster_changed) {
 
             cluster_changed = false;
-            iteration++;
 
             for (Clusters cluster : clusters) {
                 cluster.clearRecords();
@@ -102,8 +96,8 @@ public class Kmeans {
                         double longitude_difference =
                                 Math.abs(old_longitude - new_centre.getLongitude());
 
-                        if (latitude_difference > tolerance ||
-                                longitude_difference > tolerance) {
+                        if (old_latitude != new_centre.getLatitude() ||
+                                old_longitude != new_centre.getLongitude()) {
                             cluster_changed = true;
                         }
                     }
@@ -111,11 +105,11 @@ public class Kmeans {
             }
         }
     }
-    /* I did use Chatgpt here to obtain chunkSize because I was not sure how to split it */
-    private List<List<Records>> splitIntoChunks(List<Records> records, int number_of_chunks) {
+
+    private List<List<Records>> splitIntoChunks(List<Records> records, int number_of_threads) {
 
         List<List<Records>> chunks = new ArrayList<>();
-        int chunk_size = (int) Math.ceil((double) records.size() / number_of_chunks);
+        int chunk_size = (int) Math.ceil((double) records.size() / number_of_threads);
         for (int i = 0; i < records.size(); i += chunk_size) {
             int end = Math.min(i + chunk_size, records.size());
             chunks.add(records.subList(i, end));
