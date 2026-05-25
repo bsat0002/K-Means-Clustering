@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bea4658-a145-4986-ba17-6d68014b9436" name="Changes" comment="Final">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/ColoringWaypoints.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/DefinedBoundaries.java" beforeDir="false" afterPath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/DefinedBoundaries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/EucDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/EucDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/WorkerResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/WorkerResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sequential/src/main/java/OperationsS/ColoringWaypoints.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sequential/src/main/java/OperationsS/DefinedBoundaries.java" beforeDir="false" afterPath="$PROJECT_DIR$/sequential/src/main/java/OperationsS/DefinedBoundaries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sequential/src/main/java/OperationsS/EucDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/sequential/src/main/java/OperationsS/EucDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sequential/src/main/java/OperationsS/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/sequential/src/main/java/OperationsS/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="1bea4658-a145-4986-ba17-6d68014b9436" name="Changes" comment="Removed Colored Waypoint class since I implemented the map differently + went through the code to remove any variables I had declared and not used" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -247,12 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1779399248141</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Removed Colored Waypoint class since I implemented the map differently + went through the code to remove any variables I had declared and not used">
+      <option name="closed" value="true" />
+      <created>1779732177735</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779732177735</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="simple as possible, just trying to get the map to load" />
     <MESSAGE value="Final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final" />
+    <MESSAGE value="Removed Colored Waypoint class since I implemented the map differently + went through the code to remove any variables I had declared and not used" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed Colored Waypoint class since I implemented the map differently + went through the code to remove any variables I had declared and not used" />
   </component>
 </project>
