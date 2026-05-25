@@ -2,7 +2,7 @@ package OperationsP;
 
 import java.util.*;
 
-// Stores the partial result.
+// Stores the result for each processor.
 public class WorkerResult {
 
     public double[] latitude_sum;

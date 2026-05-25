@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bea4658-a145-4986-ba17-6d68014b9436" name="Changes" comment="Final" />
+    <list default="true" id="1bea4658-a145-4986-ba17-6d68014b9436" name="Changes" comment="Final">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/ColoringWaypoints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/DefinedBoundaries.java" beforeDir="false" afterPath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/DefinedBoundaries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/EucDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/EucDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/WorkerResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/parallel/src/main/java/OperationsP/WorkerResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sequential/src/main/java/OperationsS/ColoringWaypoints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sequential/src/main/java/OperationsS/DefinedBoundaries.java" beforeDir="false" afterPath="$PROJECT_DIR$/sequential/src/main/java/OperationsS/DefinedBoundaries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sequential/src/main/java/OperationsS/EucDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/sequential/src/main/java/OperationsS/EucDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sequential/src/main/java/OperationsS/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/sequential/src/main/java/OperationsS/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +31,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -54,7 +66,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ben/Desktop/School/Programming 3/K_Means_Clustering/distributed/src/main/java/Operations&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ben/Desktop/School/Programming 3/K_Means_Clustering&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2862069&quot;,
@@ -81,7 +93,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OperationsP.Launcher (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OperationsS.Main" />
       <module name="K_Means_Clustering" />
@@ -188,9 +200,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OperationsP.Launcher (1)" />
-        <item itemvalue="Application.OperationsP.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.OperationsP.Main" />
+        <item itemvalue="Application.OperationsP.Launcher (1)" />
         <item itemvalue="Application.OperationsD.Main" />
         <item itemvalue="Application.OperationsP.Launcher" />
       </list>

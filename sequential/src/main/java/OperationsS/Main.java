@@ -28,7 +28,7 @@ public class Main {
             panel.add(new JLabel("Insert number of Accumulation Sites required:"));
             panel.add(sitesField);
 
-            int result = JOptionPane.showConfirmDialog(null, panel, "K-Means-Menu",
+            int result = JOptionPane.showConfirmDialog(null, panel, "Sequential K-Means-Menu",
                     JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
 
             if (result != JOptionPane.OK_OPTION) {

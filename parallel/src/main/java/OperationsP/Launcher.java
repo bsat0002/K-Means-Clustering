@@ -46,7 +46,7 @@ public class Launcher {
         distributedButton.addActionListener(e -> {
             JOptionPane.showMessageDialog(
                     frame,
-                    "Please read the distributed section in the report for guidelines on how to run it.",
+                    "Please read section 2.3 of the report for guidelines on running distributed.",
                     "Distributed Mode Info",
                     JOptionPane.INFORMATION_MESSAGE
             );
