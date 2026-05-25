@@ -18,11 +18,9 @@ public class DefinedBoundaries {
         squareish_boundary.add(new Boundaries(45.8, 16.0, 48.5, 22.6));// Hungary
         squareish_boundary.add(new Boundaries(56.1, 21.5, 54.6, 25.2)); // Lithuania
         squareish_boundary.add(new Boundaries(53.7,15.4 , 49.7, 22.0)); // Poland
+        squareish_boundary.add(new Boundaries(43.6, 20.9, 48.3, 29.5)); // Romania
+        squareish_boundary.add(new Boundaries(48.5, 12.1, 51.1, 18.9)); //Czech Republic
         squareish_boundary.add(new Boundaries(53.3, 7.7, 47.8, 11.6)); // Germany
-        
-
-
-
 
         return squareish_boundary;
     }

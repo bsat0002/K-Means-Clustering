@@ -5,8 +5,6 @@ public class EucDistance implements Distance<Records, Clusters> {
     @Override
     public double calculateDistance(Records records, Clusters clusters) {
 
-        double distance = 0;
-
         double lat = records.getLatitude();
         double lon = records.getLongitude();
 

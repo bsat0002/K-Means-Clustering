@@ -3,7 +3,7 @@ package OperationsD;
 import java.io.Serializable;
 import java.util.*;
 
-// Stores the partial result.
+// Stores the result for each rank.
 public class WorkerResult implements Serializable {
 
     public double[] latitude_sum;

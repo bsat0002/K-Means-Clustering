@@ -18,7 +18,7 @@ public class Main {
     // I did not use invokeLater here since ranks need to synchronize
 
 
-        System.out.println("Running distributed...");
+            System.out.println("Running distributed...");
         MPI.Init(args);
         int rank = MPI.COMM_WORLD.Rank();
         int k = 0;
